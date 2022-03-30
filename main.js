@@ -15,5 +15,6 @@ console.log(countZero1);
 //Method 2
 const numbers = Array.from({length: 10000}, (_, i) => (i+1).toString());
 const countZero2 = numbers.join("").replace(/[1-9]/g,"").length;
+console.log(countZero2);
 
 // Answer is 2893
